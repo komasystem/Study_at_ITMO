@@ -212,3 +212,15 @@ INC - если разрешено прерывание и готов
 W - работа останов F9
 P - если 1 то вверх и reset и разрывается путь от таквого генератора к бвэм
 HALT - HLT
+
+
+
+
+
+ <Button>Подход</Button>
+
+ function Button({children}
+
+
+ <WayToTeach title={ways[0].title} description={ways[0].description} />
+<WayToTeach {...ways[1]} />
